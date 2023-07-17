@@ -46,7 +46,7 @@ export default function AssignCourse({ studentId, onSubmit }) {
       .catch(error => {
         console.error('Error fetching courses: ', error);
       });
-  }
+  };
 
   useEffect(() => {
     fetchingStudent();
@@ -65,7 +65,7 @@ export default function AssignCourse({ studentId, onSubmit }) {
     }
 
 
-  }
+  };
 
   const handleSubmitForm = () => {
 
@@ -95,7 +95,7 @@ export default function AssignCourse({ studentId, onSubmit }) {
     setCoursesId([]);
 
     handleOpen();
-  }
+  };
 
 
   return (
